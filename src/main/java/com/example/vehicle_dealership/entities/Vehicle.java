@@ -23,7 +23,7 @@ public class Vehicle {
     @Size(min = 1, max = 50, message = "Make must be between 1 and 50 characters")
     private String make;
 
-    @NotBlank(message = "Model is required")
+    @NotBlank(message = "Model is required.")
     @Size(min = 1, max = 50, message = "Model must be between 1 and 50 characters")
     private String model;
 
